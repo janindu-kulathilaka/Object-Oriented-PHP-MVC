@@ -1,5 +1,5 @@
 <?php
-class User
+class User1
 {
   public $name;
 
@@ -11,7 +11,7 @@ class User
 
 // Instatiate a user object from the User class
 
-$user1 = new User();
+$user1 = new User1();
 $user1->name = 'Janindu';
 
 echo $user1->name;
